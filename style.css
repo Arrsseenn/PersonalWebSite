@@ -4,6 +4,18 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+header{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  position:fixed;
+  top:0;
+  z-index: 1000;
+  width: 100%;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -31,12 +43,6 @@ body {
   font-weight: 100;
   margin-top: 20px;
 }
-.box h5 {
-  font-size: 18px;
-  letter-spacing: 3px;
-  font-weight: 100;
-  margin: 20px 0;
-}
 .box p {
   text-align: justify;
 }
@@ -58,3 +64,16 @@ ul {
 .box li a:hover {
   color: #b9b9b9;
 }
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+
