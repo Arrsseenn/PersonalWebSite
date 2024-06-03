@@ -1,84 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Personal WebSite</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h2>Студенти КІ2-23-4</h2>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Навігаційна панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Мій сайт</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Про мене</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Проєкти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Контакти</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Головна секція -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Привіт! Я Арсен</h1>
+        <p class="lead">Розробник модифікацій для ігор | Веб-дизайнер</p>
     </header>
 
-    <div class="box">
-      <img
-        src="img/photo_5188406603823569551_y.jpg"
-        alt="Андрій"
-        class="box-img"
-      />
-      <h1>Андрій</h1>
-      <p>Не відвідує пари</p>
-      <ul>
-        <li>
-          <a href="https://web.telegram.org/k/#@Andrii_Play" target="_blank">
-            <i class="fa fa-telegram" ariahidden="true"></i>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://steamcommunity.com/id/MANDARINGG" target="_blank">
-            <i class="fa fa-steam" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="text">
-      <p>
-        Андрій - це молодий та цілеспрямований студент, який завжди мріяв про
-        велике майбутнє у сфері інформаційних технологій. Він відомий своєю
-        завзятістю та наполегливістю у досягненні своїх цілей. З дитинства
-        Андрій виявляв інтерес до комп'ютерів та програмування. У школі він
-        активно вивчав предмети, пов'язані з математикою та інформатикою, і
-        завжди відзначався високими результатами на уроках. Після закінчення
-        школи, Андрій обрав напрямок у вивченні комп'ютерних наук у вищому
-        навчальному закладі. В університеті він проявив себе як видатний
-        студент, активно брав участь у наукових дослідженнях та проектах, а
-        також приймав участь у студентському самоврядуванні. Поза навчанням,
-        Андрій веде активний спосіб життя. Він цікавиться спортом, особливо
-        футболом, і завжди готовий прийняти участь у спортивних заходах. Також
-        він активно бере участь у різноманітних культурних заходах та
-        волонтерських ініціативах. Андрій мріє стати висококваліфікованим
-        програмістом і внести свій вклад у розвиток сучасних технологій. Він
-        наполегливо працює над розвитком своїх навичок і знань, впевнений, що з
-        відданістю та вірою в себе він досягне всіх своїх мрій і цілей.
-      </p>
-    </div>
-
-    <div>
-      <iframe
-        width="100%"
-        height="720"
-        src="https://www.youtube.com/embed/iwOmhDxnBvY?si=1nB-twS9GzRzlSp9"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </div>
-
-
-    <section>
-      <div>
-        
-      </div>
+    <!-- Про мене -->
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/photo_5393255614467135221_x.jpg" class="img-fluid rounded-circle" alt="Ваше фото">
+            </div>
+            <div class="col-md-8">
+                <h2>Про мене</h2>
+                <p>Вітаю! Мене звати Арсен. Я спеціалізуюсь на розробці модифікацій для гри Terarria. Маю досвід роботи з HTML, CSS, JavaScript, а також різними фреймворками та бібліотеками.</p>
+            </div>
+        </div>
     </section>
-  </body>
+
+    <!-- Проєкти -->
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center">Мої проєкти</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Проєкт 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sucuna</h5>
+                        <p class="card-text">Це першв модифікація яка була більш тренувальною ніж серйозною.
+                          Написання коду відбувається на мові С#
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Проєкт 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Проєкт 2</h5>
+                        <p class="card-text">Нажаль я ще не достатьно досвідчений для розробки модифікацій, тим більше самотушки. 
+                          Для написання модифікації найскладніше це намалювати спрайти для аніймацій.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти -->
+    <section id="contact" class="container mt-5 mb-5">
+        <h2 class="text-center">Контакти</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ім'я</label>
+                        <input type="text" class="form-control" id="name" placeholder="Введіть ваше ім'я">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Електронна пошта</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введіть вашу електронну пошту">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Повідомлення</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Введіть ваше повідомлення"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Всі права захищені.</p>
+    </footer>
+
+    <!-- Скрипти Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
